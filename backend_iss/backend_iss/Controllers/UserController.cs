@@ -67,12 +67,12 @@ namespace backend_iss.Controllers
             List<User> list = _dataContext.Users.Where(u => u.Username == request.Username).ToList();
             if(list == null || list.Count == 0)
             {
-                return BadRequest("User Not Found");
+                return BadRequest("Wrong Credentials");
             }
 
             if (!VerifyPasswordHash(request.Password, list.ElementAt(0).PasswordHash, list.ElementAt(0).PasswordSalt))
             {
-                return BadRequest("Wrong password.");
+                return BadRequest("Wrong Credentials");
             }
 
 

@@ -60,3 +60,10 @@ C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\obj\Debug\net6.0\refi
 C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\obj\Debug\net6.0\backend_iss.pdb
 C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\obj\Debug\net6.0\backend_iss.genruntimeconfig.cache
 C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\obj\Debug\net6.0\ref\backend_iss.dll
+C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\bin\Debug\net6.0\Scrutor.dll
+C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\ghadi\Desktop\ISS_Project\backend_iss\backend_iss\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
