@@ -8,5 +8,6 @@ namespace backend_iss.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Books> Books { get; set; }
     }
 }

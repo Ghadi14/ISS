@@ -22,6 +22,15 @@ namespace backend_iss.Controllers
             _dataContext = dataContext;
             _configuration = configuration;
         }
+        [HttpPost]
+        [Route("CorsTest")]
+        public async Task<ActionResult> CorsTest(CorsTest corsTest)
+        {
+            Console.WriteLine("test");
+            Console.WriteLine("val1" + corsTest.val1);
+            Console.WriteLine("val2"+corsTest.val2);
+            return Ok();
+        }
 
         [HttpPost]
         [Route("Register")]
