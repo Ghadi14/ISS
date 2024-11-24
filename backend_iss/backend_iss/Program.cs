@@ -3,6 +3,7 @@ global using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Middleware;
 using Swashbuckle.AspNetCore.Filters;
 using System.Text;
 
@@ -46,6 +47,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+builder.Services.AddTransient<Middleware.Middleware>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -61,6 +65,8 @@ app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseMiddleware<Middleware.Middleware>();
+
 
 app.MapControllers();
 

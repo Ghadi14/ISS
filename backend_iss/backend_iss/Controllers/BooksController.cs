@@ -33,6 +33,7 @@ namespace backend_iss.Controllers
         [Route("AllBooks"),Authorize()]
         public async Task<ActionResult> GetAllBooks()
         {
+            throw new UnauthorizedAccessException("User is not authorized to access this resource.");
             return Ok(await _dataContext.Books.ToListAsync());
         }
 

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "s8t7i7/pFLByuZibTXVJlmyxsY16j9jBSrXWeFOU4lGrSHJJZQ1zJuES3asQAUBbJAmQBEiMavFPCOIWBIAgaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\Middleware\\Middleware.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ghadi\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\8.0.11\\microsoft.aspnetcore.middlewareanalysis.8.0.11.nupkg.sha512",
+    "C:\\Users\\ghadi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

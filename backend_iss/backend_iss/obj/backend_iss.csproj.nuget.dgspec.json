@@ -1,33 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ghadi\\Desktop\\ISS_Project\\backend_iss\\backend_iss\\backend_iss.csproj": {}
+    "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\backend_iss\\backend_iss.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ghadi\\Desktop\\ISS_Project\\backend_iss\\backend_iss\\backend_iss.csproj": {
+    "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\backend_iss\\backend_iss.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghadi\\Desktop\\ISS_Project\\backend_iss\\backend_iss\\backend_iss.csproj",
+        "projectUniqueName": "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\backend_iss\\backend_iss.csproj",
         "projectName": "backend_iss",
-        "projectPath": "C:\\Users\\ghadi\\Desktop\\ISS_Project\\backend_iss\\backend_iss\\backend_iss.csproj",
+        "projectPath": "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\backend_iss\\backend_iss.csproj",
         "packagesPath": "C:\\Users\\ghadi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghadi\\Desktop\\ISS_Project\\backend_iss\\backend_iss\\obj\\",
+        "outputPath": "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\backend_iss\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ghadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\Middleware\\Middleware.csproj": {
+                "projectPath": "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\Middleware\\Middleware.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -37,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -73,7 +77,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -85,7 +90,68 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\Middleware\\Middleware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\Middleware\\Middleware.csproj",
+        "projectName": "Middleware",
+        "projectPath": "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\Middleware\\Middleware.csproj",
+        "packagesPath": "C:\\Users\\ghadi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ghadi\\OneDrive\\Desktop\\Work\\roubi\\iss\\ISS\\backend_iss\\Middleware\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ghadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.MiddlewareAnalysis": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
